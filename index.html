@@ -1,0 +1,2690 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script type='text/javascript' nonce='G7iiKrRuhssq39B2k6bNjg==' src='https://contribution.usercontent.google.com/jNkte-uN-C1qi6BrNvzvUX9k0aDj6ZwEvDWb5K8GPTI-i1QweakLGQKLg9tpGn1xuebZ0Z6PIBBm5EMGwj-XvQmi_hBc9Fhnp4XkbxsfKayKIiFVKKDR-6Luo-LlfafcVMQl_DciKhW4yaTUKXdzPJBvs51pI4cTV76sgEkIfFzFtsi-9lxJM0pZukiiN2KkhnamC5PNJoQ_TD0XHonLYLzoQCWPIbXTTXnDyfCbYHp8wU8vOor95drE7Y2Rl8rS1mpMc8W8n_wAyBhreJPbFkv0r6wasFay-dxGirNFEXifSv1PVE3J57rQ7Q4zwdH5pRaIJuWTABvINS_G5kIB7ZwR5SxiRlre4ZE56Flj9zBJnc77Hhlgyq41B9eVw0jjwE1ZYK6LWLLVHiFyPhumBwH_H0ZpMuVpi_Gemw3S8mdXDI-PbCOZceLBJsi7PJnV6KFGXfLpSXIiiLxlRSzFjwLKtVwRIPb6k4emFU2KeM-lwAkpWdHdDOhTqVm6Y9dz7gTcOBHdZ_GLC4T7Ocb5rKB4iOxxP0gU2BlBxnb5wMI_1TEAQ3FtZglzlOklpiC8bnH1ZRyfxMvpnXzEXkbIwBdaswP0WLxnbI4JfYcBkPzoDvzqChGLU9U3v-bcmtqLlun5kprHjMJSi7vsW9rNTOZTjcgRFIjM3X274lFtV4Z6upVM2R3d_VdTS7dT8peH3nLxuXRyYmYZ0hOJAV5Qh9DR-r25KDGgaqs'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="artifact-type" content="narrative">
+  <meta name="design-style" content="riso">
+  <title>I Colori e le Domande in Inglese — Dojo Manga Interattivo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&amp;family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@1.43.0/dist/umd/lucide.min.js"></script>
+  <style>
+    :root {
+      color-scheme: light;
+
+      /* Page and surfaces (Riso) */
+      --background: #f7f3ea;
+      --surface-container-low: #ffffff;
+      --surface-container: #efe8d8;
+      --surface-container-high: #fff8b3;
+
+      /* Ink */
+      --on-surface: #1d2a5a;
+      --on-surface-variant: #3d4775;
+
+      /* Rules */
+      --outline: #1d2a5a;
+      --outline-variant: #c3c6d9;
+
+      /* Accents */
+      --primary: #006aa8;
+      --on-primary: #ffffff;
+      --primary-container: #ffe800;
+      --on-primary-container: #1d2a5a;
+      --secondary: #ff52b4;
+      --tertiary: #d00074;
+      --error: #c0262d;
+      --on-error: #ffffff;
+
+      /* Data series */
+      --data-1: #0078bf;
+      --data-2: #d00074;
+      --data-3: #1d2a5a;
+      --data-4: #d9531e;
+      --data-context: #b4b8cc;
+
+      /* Fonts */
+      --font-headline: 'Archivo', sans-serif;
+      --font-body: 'Work Sans', sans-serif;
+      --font-label: 'Space Mono', monospace;
+
+      /* Shape */
+      --rounded: 0.25rem;
+      --rounded-lg: 0.5rem;
+      --rounded-full: 9999px;
+
+      /* Style effects */
+      --misregister: 3px 2px 0 rgb(255 82 180 / 0.85);
+      --ink-border: 2px solid var(--outline);
+      --offset-pink: 5px 5px 0 var(--secondary);
+      --offset-blue: 5px 5px 0 var(--primary);
+      --offset-sm: 3px 3px 0 var(--primary);
+      --offset-sm-pink: 3px 3px 0 var(--secondary);
+      --halftone: radial-gradient(rgb(29 42 90 / 0.08) 1px, transparent 1.2px);
+      --halftone-size: 6px 6px;
+
+      /* Semantic */
+      --positive: #15803d;
+      --positive-bg: #dcfce7;
+      --error-bg: #fee2e2;
+      --warning: #b45309;
+      --focus: #006aa8;
+
+      /* Lesson color swatches */
+      --swatch-red: #dc2626;
+      --swatch-blue: #1d4ed8;
+      --swatch-lightblue: #38bdf8;
+      --swatch-yellow: #facc15;
+      --swatch-green: #16a34a;
+      --swatch-orange: #f97316;
+      --swatch-purple: #7e22ce;
+      --swatch-pink: #ec4899;
+      --swatch-brown: #854d0e;
+      --swatch-black: #18181b;
+      --swatch-white: #ffffff;
+      --swatch-grey: #64748b;
+
+      /* Type scale (Narrative) */
+      --display-size: clamp(2.4rem, 1.4rem + 3.6vw, 4.25rem);
+      --headline-size: clamp(1.75rem, 1.2rem + 1.8vw, 2.5rem);
+      --subhead-size: clamp(1.2rem, 1.05rem + 0.55vw, 1.45rem);
+      --body-size: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem);
+      --label-size: clamp(0.75rem, 0.72rem + 0.12vw, 0.8125rem);
+
+      /* Spacing scale */
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+      --space-xl: 2.5rem;
+      --space-2xl: 4rem;
+      --space-3xl: 6rem;
+
+      /* Motion */
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+      --dur-micro: 120ms;
+      --dur-short: 220ms;
+      --dur-long: 420ms;
+    }
+
+    /* Base reset */
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { overflow-x: clip; margin: 0; padding: 0; }
+    header { position: static !important; }
+
+    body {
+      background-color: var(--background);
+      background-image: var(--halftone);
+      background-size: var(--halftone-size);
+      color: var(--on-surface);
+      font-family: var(--font-body);
+      font-size: var(--body-size);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      color: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    .page-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: var(--space-2xl);
+      padding: var(--space-xl) var(--space-lg) var(--space-3xl);
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    .page-grid * { min-width: 0; }
+
+    /* Typography helpers */
+    .misregister {
+      font-family: var(--font-headline);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+      line-height: 1.02;
+      color: var(--primary);
+      text-shadow: var(--misregister);
+      margin: 0;
+    }
+
+    .display-title {
+      font-size: var(--display-size);
+      max-width: 18ch;
+    }
+
+    .section-title {
+      font-size: var(--headline-size);
+      margin-top: var(--space-sm);
+    }
+
+    .subhead {
+      font-family: var(--font-headline);
+      font-weight: 800;
+      font-size: var(--subhead-size);
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+      color: var(--on-surface);
+      margin: 0;
+    }
+
+    .stamp {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background: var(--primary);
+      color: var(--on-primary);
+      border-radius: var(--rounded-full);
+      padding: var(--space-xs) var(--space-md);
+    }
+
+    .stamp-outline {
+      background: var(--surface-container-low);
+      color: var(--on-surface);
+      border: var(--ink-border);
+    }
+
+    .flood-highlight {
+      background: var(--primary-container);
+      color: var(--on-primary-container);
+      padding: 0 var(--space-xs);
+      font-weight: 600;
+    }
+
+    .kicker-text {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--tertiary);
+    }
+
+    p {
+      margin: 0;
+      max-width: 65ch;
+    }
+
+    /* Ink Blocks (Cards) */
+    .ink-block {
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded-lg);
+      box-shadow: var(--offset-pink);
+      padding: var(--space-lg);
+    }
+
+    .ink-block-blue {
+      box-shadow: var(--offset-blue);
+    }
+
+    .ink-block-yellow {
+      background: var(--surface-container-high);
+      box-shadow: var(--offset-blue);
+    }
+
+    .ink-block-recessed {
+      background: var(--surface-container);
+      border: var(--ink-border);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+    }
+
+    .ink-block-recessed .kicker-text {
+      color: var(--primary);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-sm);
+      min-height: 44px;
+      padding: var(--space-sm) var(--space-lg);
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: transform var(--dur-micro) var(--ease-out),
+                  box-shadow var(--dur-micro) var(--ease-out),
+                  background-color var(--dur-micro) var(--ease-out);
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--secondary);
+      color: var(--on-surface);
+      box-shadow: var(--offset-sm);
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      transform: translate(1px, 1px);
+      box-shadow: 2px 2px 0 var(--primary);
+    }
+
+    .btn-secondary {
+      background: var(--primary-container);
+      color: var(--on-primary-container);
+      box-shadow: var(--offset-sm);
+    }
+
+    .btn-secondary:hover:not(:disabled) {
+      transform: translate(1px, 1px);
+      box-shadow: 2px 2px 0 var(--primary);
+    }
+
+    .btn-ghost {
+      background: var(--surface-container-low);
+      color: var(--on-surface);
+      box-shadow: var(--offset-sm-pink);
+    }
+
+    .btn-ghost:hover:not(:disabled) {
+      transform: translate(1px, 1px);
+      box-shadow: 2px 2px 0 var(--secondary);
+    }
+
+    .btn-active {
+      background: var(--primary);
+      color: var(--on-primary);
+      box-shadow: var(--offset-sm-pink);
+    }
+
+    .btn:active:not(:disabled) {
+      transform: translate(2px, 2px);
+      box-shadow: 1px 1px 0 var(--outline);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-sm {
+      min-height: 44px;
+      padding: var(--space-xs) var(--space-md);
+    }
+
+    /* Header & Hero */
+    .hero-section {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+      gap: var(--space-xl);
+      align-items: start;
+    }
+
+    .hero-copy {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+    }
+
+    .hero-lede {
+      font-size: clamp(1.1rem, 1rem + 0.35vw, 1.25rem);
+      color: var(--on-surface-variant);
+      max-width: 58ch;
+    }
+
+    .hero-nav-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      margin-top: var(--space-xs);
+    }
+
+    /* Manga HUD Card */
+    .hud-panel {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+    }
+
+    .hud-stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-sm);
+    }
+
+    .hud-stat {
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      padding: var(--space-sm) var(--space-md);
+    }
+
+    .hud-stat-label {
+      font-family: var(--font-label);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--on-surface-variant);
+      display: block;
+    }
+
+    .hud-stat-val {
+      font-family: var(--font-headline);
+      font-weight: 900;
+      font-size: 1.55rem;
+      line-height: 1.1;
+      font-variant-numeric: tabular-nums;
+      color: var(--on-surface);
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 14px;
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded-full);
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: var(--primary);
+      transition: width var(--dur-long) var(--ease-out);
+    }
+
+    .hud-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      align-items: center;
+    }
+
+    .rank-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--space-sm);
+      flex-wrap: wrap;
+    }
+
+    /* Section divider */
+    .section-block {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-lg);
+      padding-top: var(--space-lg);
+      border-top: var(--ink-border);
+    }
+
+    .section-header {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+      align-items: flex-start;
+    }
+
+    /* Chapter 1: Color Filters & Grid */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      align-items: center;
+    }
+
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(245px, 100%), 1fr));
+      gap: var(--space-lg);
+    }
+
+    .color-card-wrapper {
+      container-type: inline-size;
+    }
+
+    @container (max-width: 240px) {
+      .color-card-top {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    .color-card {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+      height: 100%;
+      transition: transform var(--dur-short) var(--ease-out);
+    }
+
+    .color-card-wrapper:nth-child(even) .color-card {
+      background: var(--surface-container-high);
+      box-shadow: var(--offset-blue);
+    }
+
+    .color-card.is-mastered {
+      outline: 3px solid var(--positive);
+      outline-offset: -3px;
+    }
+
+    .color-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-md);
+    }
+
+    .swatch-frame {
+      width: 68px;
+      height: 68px;
+      border: var(--ink-border);
+      border-radius: var(--rounded-lg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: var(--offset-sm);
+    }
+
+    .color-word-group {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .color-en {
+      font-family: var(--font-headline);
+      font-weight: 900;
+      font-size: 1.45rem;
+      line-height: 1.1;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+    }
+
+    .color-it {
+      font-weight: 600;
+      color: var(--on-surface-variant);
+    }
+
+    .color-phonetic {
+      font-family: var(--font-label);
+      font-size: 0.78rem;
+      color: var(--tertiary);
+    }
+
+    .color-example-box {
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      padding: var(--space-sm) var(--space-md);
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+    }
+
+    .color-example-en {
+      font-weight: 600;
+      display: block;
+    }
+
+    .color-example-it {
+      font-size: 0.9rem;
+      color: var(--on-surface-variant);
+      display: block;
+    }
+
+    .color-card-actions {
+      display: flex;
+      gap: var(--space-sm);
+      margin-top: auto;
+      flex-wrap: wrap;
+    }
+
+    /* Chapter 2: Manga Dialogue Panels & Rules */
+    .manga-panels-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(310px, 100%), 1fr));
+      gap: var(--space-lg);
+    }
+
+    .manga-panel {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+    }
+
+    .manga-panel:nth-child(even) {
+      background: var(--surface-container-high);
+      box-shadow: var(--offset-blue);
+    }
+
+    .dialogue-turn {
+      display: flex;
+      gap: var(--space-md);
+      align-items: flex-start;
+    }
+
+    .dialogue-turn.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .avatar-box {
+      width: 58px;
+      height: 58px;
+      flex-shrink: 0;
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      background: var(--surface-container-low);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .speech-bubble {
+      flex: 1;
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-sm) var(--space-md);
+      position: relative;
+    }
+
+    .speech-speaker {
+      font-family: var(--font-label);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--primary);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .speech-en {
+      font-weight: 700;
+      font-size: 1.05rem;
+      display: block;
+    }
+
+    .speech-it {
+      font-size: 0.9rem;
+      color: var(--on-surface-variant);
+      display: block;
+    }
+
+    .rule-note {
+      background: var(--surface-container);
+      border-left: 4px solid var(--primary);
+      padding: var(--space-sm) var(--space-md);
+      font-size: 0.95rem;
+      border-radius: 0 var(--rounded) var(--rounded) 0;
+    }
+
+    /* Riso Table */
+    .table-card {
+      overflow-x: auto;
+    }
+
+    .riso-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.96rem;
+    }
+
+    .riso-table th {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-align: left;
+      padding: var(--space-sm) var(--space-md);
+      border-bottom: 2px solid var(--outline);
+      color: var(--on-surface);
+    }
+
+    .riso-table td {
+      padding: var(--space-sm) var(--space-md);
+      border-bottom: 1px solid var(--outline-variant);
+      vertical-align: top;
+    }
+
+    .riso-table tr.row-highlight td {
+      background: var(--primary-container);
+      font-weight: 600;
+    }
+
+    /* Interactive Sentence Builder */
+    .builder-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+      gap: var(--space-xl);
+      align-items: stretch;
+    }
+
+    .builder-controls {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: var(--space-md);
+      align-content: start;
+    }
+
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+    }
+
+    .field-label {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--on-surface);
+    }
+
+    .riso-select {
+      width: 100%;
+      min-height: 46px;
+      padding: var(--space-sm) var(--space-xl) var(--space-sm) var(--space-md);
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .riso-select:focus {
+      box-shadow: var(--offset-sm);
+    }
+
+    .builder-stage {
+      background: var(--surface-container-high);
+      border: var(--ink-border);
+      border-radius: var(--rounded-lg);
+      box-shadow: var(--offset-blue);
+      padding: var(--space-lg);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: var(--space-md);
+    }
+
+    .builder-vignette {
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      padding: var(--space-lg);
+      display: flex;
+      align-items: center;
+      gap: var(--space-lg);
+    }
+
+    .builder-output-en {
+      font-family: var(--font-headline);
+      font-weight: 800;
+      font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.65rem);
+      line-height: 1.25;
+      margin: 0;
+    }
+
+    .builder-output-it {
+      color: var(--on-surface-variant);
+      font-weight: 600;
+      margin-top: var(--space-xs);
+    }
+
+    /* Chapter 3: Practice Dojo */
+    .dojo-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+
+    .dojo-panel {
+      display: none;
+    }
+
+    .dojo-panel.active {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-lg);
+    }
+
+    .quiz-topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+      padding-bottom: var(--space-md);
+      border-bottom: 1px solid var(--outline-variant);
+    }
+
+    .quiz-prompt-card {
+      background: var(--surface-container-high);
+      border: var(--ink-border);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      display: flex;
+      align-items: center;
+      gap: var(--space-lg);
+      flex-wrap: wrap;
+    }
+
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-md);
+    }
+
+    .option-btn {
+      min-height: 54px;
+      padding: var(--space-md);
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      box-shadow: var(--offset-sm);
+      font-family: var(--font-body);
+      font-size: 1.05rem;
+      font-weight: 600;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-sm);
+      cursor: pointer;
+      transition: transform var(--dur-micro) var(--ease-out),
+                  background-color var(--dur-micro) var(--ease-out);
+    }
+
+    .option-btn:hover:not(:disabled) {
+      transform: translate(1px, 1px);
+      background: var(--surface-container-high);
+    }
+
+    .option-btn.is-correct {
+      background: var(--positive-bg);
+      outline: 3px solid var(--positive);
+      outline-offset: -3px;
+    }
+
+    .option-btn.is-wrong {
+      background: var(--error-bg);
+      outline: 3px solid var(--error);
+      outline-offset: -3px;
+    }
+
+    .feedback-banner {
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      padding: var(--space-md) var(--space-lg);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--space-md);
+      flex-wrap: wrap;
+    }
+
+    .feedback-banner.correct {
+      background: var(--positive-bg);
+    }
+
+    .feedback-banner.wrong {
+      background: var(--error-bg);
+    }
+
+    /* Word Tiles Exercise */
+    .tile-tray {
+      min-height: 76px;
+      background: var(--surface-container-low);
+      border: 2px dashed var(--outline);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md);
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      align-items: center;
+    }
+
+    .tile-bank {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+
+    .word-tile {
+      min-height: 44px;
+      padding: var(--space-xs) var(--space-md);
+      background: var(--surface-container-low);
+      border: var(--ink-border);
+      border-radius: var(--rounded);
+      box-shadow: var(--offset-sm-pink);
+      font-family: var(--font-label);
+      font-weight: 700;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+
+    .word-tile.placed {
+      background: var(--primary-container);
+      box-shadow: var(--offset-sm);
+    }
+
+    .word-tile:disabled {
+      opacity: 0.38;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+
+    /* Footer */
+    .footer-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: var(--space-lg);
+      align-items: center;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 820px) {
+      .hero-section,
+      .builder-layout,
+      .footer-card {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page-grid {
+        padding: var(--space-md);
+        gap: var(--space-xl);
+      }
+      .options-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .hud-stats {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .builder-vignette {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-grid">
+    <!-- HEADER / HERO -->
+    <header class="hero-section">
+      <div class="hero-copy">
+        <span class="stamp">Edizione Didattica · Inglese Base</span>
+        <h1 class="misregister display-title">I Colori e le Domande in Inglese</h1>
+        <p class="hero-lede">
+          Un percorso pratico in stile manga per imparare i dodici colori essenziali,
+          costruire <span class="flood-highlight">domande e risposte</span> corrette e allenarti
+          con tre modalità di esercizi interattivi.
+        </p>
+        <div class="hero-nav-row">
+          <a href="#cap-colori" class="btn btn-primary">
+            <i data-lucide="palette" aria-hidden="true"></i>
+            1. Tavolozza Colori
+          </a>
+          <a href="#cap-dialoghi" class="btn btn-secondary">
+            <i data-lucide="message-square" aria-hidden="true"></i>
+            2. Domande e Regole
+          </a>
+          <a href="#cap-dojo" class="btn btn-ghost">
+            <i data-lucide="zap" aria-hidden="true"></i>
+            3. Dojo Esercizi
+          </a>
+        </div>
+      </div>
+
+      <!-- Manga Progress HUD -->
+      <aside class="ink-block ink-block-yellow hud-panel" aria-label="Stato di avanzamento">
+        <div class="rank-row">
+          <span class="kicker-text">Scheda Allenamento</span>
+          <span class="stamp stamp-outline" id="hud-rank">Principiante Curioso</span>
+        </div>
+
+        <div class="hud-stats">
+          <div class="hud-stat">
+            <span class="hud-stat-label">Colori</span>
+            <span class="hud-stat-val" id="hud-colors-count">0/12</span>
+          </div>
+          <div class="hud-stat">
+            <span class="hud-stat-label">Esercizi OK</span>
+            <span class="hud-stat-val" id="hud-correct-count">0</span>
+          </div>
+          <div class="hud-stat">
+            <span class="hud-stat-label">Punti XP</span>
+            <span class="hud-stat-val" id="hud-xp">0</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="rank-row" style="margin-bottom: var(--space-xs);">
+            <span class="kicker-text">Padronanza globale</span>
+            <span class="kicker-text" id="hud-progress-pct">0%</span>
+          </div>
+          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="hud-progressbar">
+            <div class="progress-fill" id="hud-progress-fill"></div>
+          </div>
+        </div>
+
+        <div class="hud-controls">
+          <button type="button" class="btn btn-ghost btn-sm" id="btn-toggle-voice" onclick="toggleVoiceAccent()">
+            <i data-lucide="volume-2" aria-hidden="true"></i>
+            Voce: <span id="voice-accent-label">UK</span>
+          </button>
+          <button type="button" class="btn btn-ghost btn-sm" id="btn-toggle-sfx" onclick="toggleSfx()">
+            <i data-lucide="music" aria-hidden="true"></i>
+            Suoni: <span id="sfx-label">Attivi</span>
+          </button>
+          <button type="button" class="btn btn-ghost btn-sm" id="btn-reset-progress" onclick="resetAllProgress(this)">
+            <i data-lucide="rotate-ccw" aria-hidden="true"></i>
+            Azzera progressi
+          </button>
+        </div>
+        <p id="hud-status-msg" class="kicker-text" aria-live="polite" style="min-height: 1.2em;"></p>
+      </aside>
+    </header>
+
+    <!-- CHAPTER 1: COLORS PALETTE -->
+    <section id="cap-colori" class="section-block" aria-labelledby="titolo-colori">
+      <div class="section-header">
+        <span class="stamp">Capitolo 01 · Lessico Visivo</span>
+        <h2 id="titolo-colori" class="misregister section-title">La Tavolozza dei 12 Colori</h2>
+        <p>
+          Esplora ogni scheda per leggere la pronuncia guidata, ascoltare il termine inglese
+          e vedere il colore applicato a un oggetto reale. Segna i colori che hai memorizzato
+          per far salire il tuo grado nel Dojo.
+        </p>
+      </div>
+
+      <div class="filter-bar" role="group" aria-label="Filtra colori per categoria">
+        <button type="button" class="btn btn-active btn-sm" id="filter-all" onclick="setColorFilter(&#39;all&#39;)">Tutti (12)</button>
+        <button type="button" class="btn btn-ghost btn-sm" id="filter-warm" onclick="setColorFilter(&#39;warm&#39;)">Caldi</button>
+        <button type="button" class="btn btn-ghost btn-sm" id="filter-cool" onclick="setColorFilter(&#39;cool&#39;)">Freddi</button>
+        <button type="button" class="btn btn-ghost btn-sm" id="filter-neutral" onclick="setColorFilter(&#39;neutral&#39;)">Neutri</button>
+        <button type="button" class="btn btn-ghost btn-sm" id="filter-todo" onclick="setColorFilter(&#39;todo&#39;)">Da imparare</button>
+      </div>
+
+      <div class="color-grid" id="color-cards-grid"></div>
+    </section>
+
+    <!-- CHAPTER 2: QUESTIONS, GRAMMAR & BUILDER -->
+    <section id="cap-dialoghi" class="section-block" aria-labelledby="titolo-dialoghi">
+      <div class="section-header">
+        <span class="stamp">Capitolo 02 · Frasi e Domande</span>
+        <h2 id="titolo-dialoghi" class="misregister section-title">Chiedere e Rispondere in Inglese</h2>
+        <p>
+          Conoscere i nomi dei colori è il primo passo; usarli dentro domande e risposte
+          complete è ciò che ti fa comunicare subito. Segui i dialoghi tra <strong>Sora</strong> e <strong>Kai</strong>.
+        </p>
+      </div>
+
+      <div class="manga-panels-grid">
+        <!-- Panel 1: What colour is it? -->
+        <article class="ink-block manga-panel">
+          <span class="kicker-text">Vignetta 01 · Chiedere il colore</span>
+          <div class="dialogue-turn">
+            <div class="avatar-box" id="avatar-sora-1" aria-hidden="true"></div>
+            <div class="speech-bubble">
+              <span class="speech-speaker">Sora</span>
+              <span class="speech-en">What colour is the sun?</span>
+              <span class="speech-it">Di che colore è il sole?</span>
+            </div>
+          </div>
+          <div class="dialogue-turn reverse">
+            <div class="avatar-box" id="avatar-kai-1" aria-hidden="true"></div>
+            <div class="speech-bubble">
+              <span class="speech-speaker">Kai</span>
+              <span class="speech-en">It's yellow! The sun is yellow.</span>
+              <span class="speech-it">È giallo! Il sole è giallo.</span>
+            </div>
+          </div>
+          <div class="rule-note">
+            <strong>Struttura base:</strong> usa <strong>What colour is + oggetto?</strong> per un solo oggetto,
+            oppure semplicemente <strong>What colour is it?</strong> (Che colore è?).
+          </div>
+          <button type="button" class="btn btn-ghost btn-sm" onclick="speakEnglish(`What colour is the sun? It&#39;s yellow.`)">
+            <i data-lucide="volume-2" aria-hidden="true"></i>
+            Ascolta dialogo 01
+          </button>
+        </article>
+
+        <!-- Panel 2: Yes / No questions -->
+        <article class="ink-block manga-panel">
+          <span class="kicker-text">Vignetta 02 · Domande Sì / No</span>
+          <div class="dialogue-turn">
+            <div class="avatar-box" id="avatar-sora-2" aria-hidden="true"></div>
+            <div class="speech-bubble">
+              <span class="speech-speaker">Sora</span>
+              <span class="speech-en">Is the apple green?</span>
+              <span class="speech-it">La mela è verde?</span>
+            </div>
+          </div>
+          <div class="dialogue-turn reverse">
+            <div class="avatar-box" id="avatar-kai-2" aria-hidden="true"></div>
+            <div class="speech-bubble">
+              <span class="speech-speaker">Kai</span>
+              <span class="speech-en">No, it isn't. It's red!</span>
+              <span class="speech-it">No, non lo è. È rossa!</span>
+            </div>
+          </div>
+          <div class="rule-note">
+            <strong>Risposta breve:</strong> se è vero rispondi <strong>Yes, it is.</strong>;
+            se è falso usa <strong>No, it isn't.</strong> e aggiungi il colore giusto.
+          </div>
+          <button type="button" class="btn btn-ghost btn-sm" onclick="speakEnglish(`Is the apple green? No, it isn&#39;t. It&#39;s red.`)">
+            <i data-lucide="volume-2" aria-hidden="true"></i>
+            Ascolta dialogo 02
+          </button>
+        </article>
+
+        <!-- Panel 3: Favourite colour + Adjective order -->
+        <article class="ink-block manga-panel">
+          <span class="kicker-text">Vignetta 03 · Preferenze e Ordine</span>
+          <div class="dialogue-turn">
+            <div class="avatar-box" id="avatar-kai-3" aria-hidden="true"></div>
+            <div class="speech-bubble">
+              <span class="speech-speaker">Kai</span>
+              <span class="speech-en">What's your favourite colour?</span>
+              <span class="speech-it">Qual è il tuo colore preferito?</span>
+            </div>
+          </div>
+          <div class="dialogue-turn reverse">
+            <div class="avatar-box" id="avatar-sora-3" aria-hidden="true"></div>
+            <div class="speech-bubble">
+              <span class="speech-speaker">Sora</span>
+              <span class="speech-en">My favourite colour is blue. I have a blue bag!</span>
+              <span class="speech-it">Il mio colore preferito è il blu. Ho uno zaino blu!</span>
+            </div>
+          </div>
+          <div class="rule-note">
+            <strong>Regola d'oro:</strong> in inglese il colore va sempre <strong>prima del nome</strong>:
+            <span class="flood-highlight">a blue bag</span> (non "a bag blue"). Con <em>orange</em> usa <strong>an</strong>: <em>an orange cat</em>.
+          </div>
+          <button type="button" class="btn btn-ghost btn-sm" onclick="speakEnglish(`What&#39;s your favourite colour? My favourite colour is blue. I have a blue bag.`)">
+            <i data-lucide="volume-2" aria-hidden="true"></i>
+            Ascolta dialogo 03
+          </button>
+        </article>
+      </div>
+
+      <!-- Summary Reference Table -->
+      <div class="ink-block ink-block-blue table-card">
+        <h3 class="subhead" style="margin-bottom: var(--space-md);">Tabella Rapida: Formule e Ortografia UK / US</h3>
+        <table class="riso-table">
+          <thead>
+            <tr>
+              <th>Funzione</th>
+              <th>Domanda in Inglese</th>
+              <th>Risposta Modello</th>
+              <th>Nota Pratica</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chiedere il colore</td>
+              <td><strong>What colour is it?</strong></td>
+              <td>It is red. / It's red.</td>
+              <td>UK: <em>colour</em> · US: <em>color</em></td>
+            </tr>
+            <tr>
+              <td>Oggetto specifico</td>
+              <td><strong>What colour is the sky?</strong></td>
+              <td>The sky is light blue.</td>
+              <td>Usa <em>the</em> prima di un oggetto preciso</td>
+            </tr>
+            <tr>
+              <td>Verifica (Sì / No)</td>
+              <td><strong>Is it purple?</strong></td>
+              <td>Yes, it is. / No, it isn't.</td>
+              <td>Inversione: <em>Is</em> + soggetto</td>
+            </tr>
+            <tr class="row-highlight">
+              <td>Colore + Nome</td>
+              <td>What is this?</td>
+              <td>It is <strong>a green tree</strong> / <strong>an orange cat</strong>.</td>
+              <td>Colore SEMPRE prima del nome; <em>an</em> davanti a vocale</td>
+            </tr>
+            <tr>
+              <td>Preferenza personale</td>
+              <td><strong>What's your favourite colour?</strong></td>
+              <td>My favourite colour is pink.</td>
+              <td>UK: <em>favourite</em> · US: <em>favorite</em></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Interactive Sentence Builder -->
+      <div class="ink-block">
+        <div style="margin-bottom: var(--space-lg);">
+          <span class="kicker-text">Laboratorio Pratico</span>
+          <h3 class="subhead">Costruttore di Frasi e Domande</h3>
+          <p style="margin-top: var(--space-xs); color: var(--on-surface-variant);">
+            Combina struttura, oggetto e colore per vedere subito la vignetta aggiornata e verificare l'uso corretto di <em>a / an</em> e dell'ordine delle parole.
+          </p>
+        </div>
+
+        <div class="builder-layout">
+          <div class="builder-controls">
+            <div class="field-group">
+              <label class="field-label" for="builder-pattern">1. Scegli la struttura della frase</label>
+              <select id="builder-pattern" class="riso-select" onchange="updateBuilder()">
+                <option value="desc">Frase descrittiva (It's a/an [colore] [oggetto])</option>
+                <option value="state">Affermazione semplice (The [oggetto] is [colore])</option>
+                <option value="ask">Domanda sul colore (What colour is the [oggetto]?)</option>
+                <option value="yesno">Domanda di verifica (Is the [oggetto] [colore]?)</option>
+                <option value="fav">Preferenza (My favourite colour is [colore])</option>
+              </select>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="builder-object">2. Scegli l'oggetto</label>
+              <select id="builder-object" class="riso-select" onchange="updateBuilder()">
+                <option value="apple">apple (mela)</option>
+                <option value="sun">sun (sole)</option>
+                <option value="tree">tree (albero)</option>
+                <option value="cat">cat (gatto)</option>
+                <option value="bag">bag (zaino)</option>
+                <option value="flower">flower (fiore)</option>
+                <option value="book">book (libro)</option>
+                <option value="hat">hat (cappello)</option>
+              </select>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="builder-color">3. Scegli il colore</label>
+              <select id="builder-color" class="riso-select" onchange="updateBuilder()">
+                <option value="red">red (rosso)</option>
+                <option value="blue">blue (blu)</option>
+                <option value="light blue">light blue (azzurro)</option>
+                <option value="yellow">yellow (giallo)</option>
+                <option value="green">green (verde)</option>
+                <option value="orange">orange (arancione)</option>
+                <option value="purple">purple (viola)</option>
+                <option value="pink">pink (rosa)</option>
+                <option value="brown">brown (marrone)</option>
+                <option value="black">black (nero)</option>
+                <option value="white">white (bianco)</option>
+                <option value="grey">grey (grigio)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="builder-stage">
+            <div class="builder-vignette">
+              <div id="builder-svg-slot" style="width: 88px; height: 88px; flex-shrink: 0;" aria-hidden="true"></div>
+              <div>
+                <span class="kicker-text">Risultato in Inglese</span>
+                <p class="builder-output-en" id="builder-en-out">It's a red apple.</p>
+                <p class="builder-output-it" id="builder-it-out">È una mela rossa.</p>
+              </div>
+            </div>
+
+            <div class="rule-note" id="builder-tip-out">
+              Il colore <strong>red</strong> precede il nome <strong>apple</strong>. Si usa <strong>a</strong> perché <em>red</em> inizia per consonante.
+            </div>
+
+            <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap;">
+              <button type="button" class="btn btn-primary" onclick="speakBuilderSentence()">
+                <i data-lucide="volume-2" aria-hidden="true"></i>
+                Ascolta questa frase
+              </button>
+              <button type="button" class="btn btn-ghost" onclick="randomizeBuilder()">
+                <i data-lucide="shuffle" aria-hidden="true"></i>
+                Combinazione casuale
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 3: PRACTICE DOJO -->
+    <section id="cap-dojo" class="section-block" aria-labelledby="titolo-dojo">
+      <div class="section-header">
+        <span class="stamp">Capitolo 03 · Allenamento Attivo</span>
+        <h2 id="titolo-dojo" class="misregister section-title">Dojo degli Esercizi Pratici</h2>
+        <p>
+          Metti alla prova ciò che hai imparato scegliendo una delle tre modalità pratiche:
+          riconoscimento dei colori, completamento dei dialoghi manga e riordino delle parole.
+        </p>
+      </div>
+
+      <div class="dojo-tabs" role="tablist" aria-label="Modalità di esercizio">
+        <button type="button" role="tab" aria-selected="true" class="btn btn-active" id="tab-drill-1" onclick="switchDojoTab(&#39;drill1&#39;)">
+          <i data-lucide="eye" aria-hidden="true"></i>
+          1. Sfida Colore Lampo
+        </button>
+        <button type="button" role="tab" aria-selected="false" class="btn btn-ghost" id="tab-drill-2" onclick="switchDojoTab(&#39;drill2&#39;)">
+          <i data-lucide="message-circle" aria-hidden="true"></i>
+          2. Completa i Dialoghi
+        </button>
+        <button type="button" role="tab" aria-selected="false" class="btn btn-ghost" id="tab-drill-3" onclick="switchDojoTab(&#39;drill3&#39;)">
+          <i data-lucide="blocks" aria-hidden="true"></i>
+          3. Ordina la Frase
+        </button>
+      </div>
+
+      <!-- DRILL 1: COLOR FLASH QUIZ -->
+      <div class="ink-block dojo-panel active" id="panel-drill1" role="tabpanel" aria-labelledby="tab-drill-1">
+        <div class="quiz-topbar">
+          <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap; align-items: center;">
+            <span class="stamp" id="d1-progress-badge">Domanda 1 di 10</span>
+            <span class="kicker-text" id="d1-streak-text">Serie attuale: 0</span>
+          </div>
+          <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap;">
+            <button type="button" class="btn btn-secondary btn-sm" id="d1-mode-visual" onclick="setDrill1Mode(&#39;visual&#39;)">Visivo → Inglese</button>
+            <button type="button" class="btn btn-ghost btn-sm" id="d1-mode-it" onclick="setDrill1Mode(&#39;en2it&#39;)">Inglese → Italiano</button>
+            <button type="button" class="btn btn-ghost btn-sm" id="d1-mode-audio" onclick="setDrill1Mode(&#39;audio&#39;)">Solo Ascolto</button>
+          </div>
+        </div>
+
+        <div id="d1-stage"></div>
+      </div>
+
+      <!-- DRILL 2: MANGA DIALOGUE COMPLETION -->
+      <div class="ink-block ink-block-blue dojo-panel" id="panel-drill2" role="tabpanel" aria-labelledby="tab-drill-2">
+        <div class="quiz-topbar">
+          <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap; align-items: center;">
+            <span class="stamp" id="d2-progress-badge">Dialogo 1 di 8</span>
+            <span class="kicker-text" id="d2-score-text">Corretti: 0/8</span>
+          </div>
+          <button type="button" class="btn btn-ghost btn-sm" onclick="restartDrill2()">
+            <i data-lucide="rotate-ccw" aria-hidden="true"></i>
+            Ricomincia dialoghi
+          </button>
+        </div>
+
+        <div id="d2-stage"></div>
+      </div>
+
+      <!-- DRILL 3: SENTENCE WORD TILES -->
+      <div class="ink-block dojo-panel" id="panel-drill3" role="tabpanel" aria-labelledby="tab-drill-3">
+        <div class="quiz-topbar">
+          <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap; align-items: center;">
+            <span class="stamp" id="d3-progress-badge">Frase 1 di 6</span>
+            <span class="kicker-text" id="d3-score-text">Frasi risolte: 0/6</span>
+          </div>
+          <button type="button" class="btn btn-ghost btn-sm" onclick="restartDrill3()">
+            <i data-lucide="rotate-ccw" aria-hidden="true"></i>
+            Ricomincia frasi
+          </button>
+        </div>
+
+        <div id="d3-stage"></div>
+      </div>
+    </section>
+
+    <!-- FOOTER / SOURCES -->
+    <footer class="ink-block ink-block-recessed footer-card">
+      <div>
+        <span class="kicker-text">Riepilogo e Fonti Didattiche</span>
+        <h3 class="subhead" style="margin-top: var(--space-xs);">Continua ad allenarti ogni giorno</h3>
+        <p style="margin-top: var(--space-xs); color: var(--on-surface-variant);">
+          I tuoi progressi (colori segnati, risposte corrette e punti XP) vengono salvati automaticamente nella sessione dell'app.
+          Nota sulle fonti: questo percorso didattico raccoglie i dodici colori fondamentali e le principali strutture interrogative
+          e dichiarative dell'inglese di base in relazione alle due immagini sorgente fornite
+          (WhatsApp Image 2026-11-23 at 18.25.57.jpeg e WhatsApp Image 2026-11-23 at 18.26.36.jpeg).
+        </p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: var(--space-sm); align-items: flex-start;">
+        <span class="kicker-text">Esporta riepilogo studio</span>
+        <p style="font-size: 0.92rem; color: var(--on-surface-variant);">
+          Scarica un promemoria CSV con i dodici colori e i tuoi progressi nel Dojo.
+        </p>
+        <button type="button" class="btn btn-secondary" onclick="exportProgressCsv()">
+          <i data-lucide="download" aria-hidden="true"></i>
+          Scarica scheda CSV
+        </button>
+      </div>
+    </footer>
+  </div>
+
+  <api-shim></api-shim>
+  <script>
+    /* =========================================================================
+       1. DATA MODEL (backtick template literals for apostrophe safety)
+       ========================================================================= */
+    const COLORS_DATA = [
+      {
+        id: `red`,
+        en: `Red`,
+        it: `Rosso`,
+        phonetic: `/red/ ("red")`,
+        category: `warm`,
+        swatchVar: `--swatch-red`,
+        object: `apple`,
+        phraseEn: `a red apple`,
+        phraseIt: `una mela rossa`
+      },
+      {
+        id: `blue`,
+        en: `Blue`,
+        it: `Blu`,
+        phonetic: `/bluː/ ("blù")`,
+        category: `cool`,
+        swatchVar: `--swatch-blue`,
+        object: `bag`,
+        phraseEn: `a blue bag`,
+        phraseIt: `uno zaino blu`
+      },
+      {
+        id: `light blue`,
+        en: `Light blue`,
+        it: `Azzurro / Blu chiaro`,
+        phonetic: `/laɪt bluː/ ("làit blù")`,
+        category: `cool`,
+        swatchVar: `--swatch-lightblue`,
+        object: `cloud`,
+        phraseEn: `a light blue sky`,
+        phraseIt: `un cielo azzurro`
+      },
+      {
+        id: `yellow`,
+        en: `Yellow`,
+        it: `Giallo`,
+        phonetic: `/ˈjeləʊ/ ("ièl-lou")`,
+        category: `warm`,
+        swatchVar: `--swatch-yellow`,
+        object: `sun`,
+        phraseEn: `a yellow sun`,
+        phraseIt: `un sole giallo`
+      },
+      {
+        id: `green`,
+        en: `Green`,
+        it: `Verde`,
+        phonetic: `/ɡriːn/ ("grìn")`,
+        category: `cool`,
+        swatchVar: `--swatch-green`,
+        object: `tree`,
+        phraseEn: `a green tree`,
+        phraseIt: `un albero verde`
+      },
+      {
+        id: `orange`,
+        en: `Orange`,
+        it: `Arancione`,
+        phonetic: `/ˈɒrɪndʒ/ ("ò-reng")`,
+        category: `warm`,
+        swatchVar: `--swatch-orange`,
+        object: `cat`,
+        phraseEn: `an orange cat`,
+        phraseIt: `un gatto arancione`
+      },
+      {
+        id: `purple`,
+        en: `Purple`,
+        it: `Viola`,
+        phonetic: `/ˈpɜːpəl/ ("pèr-pol")`,
+        category: `cool`,
+        swatchVar: `--swatch-purple`,
+        object: `flower`,
+        phraseEn: `a purple flower`,
+        phraseIt: `un fiore viola`
+      },
+      {
+        id: `pink`,
+        en: `Pink`,
+        it: `Rosa`,
+        phonetic: `/pɪŋk/ ("pìnk")`,
+        category: `warm`,
+        swatchVar: `--swatch-pink`,
+        object: `book`,
+        phraseEn: `a pink book`,
+        phraseIt: `un libro rosa`
+      },
+      {
+        id: `brown`,
+        en: `Brown`,
+        it: `Marrone`,
+        phonetic: `/braʊn/ ("bràun")`,
+        category: `neutral`,
+        swatchVar: `--swatch-brown`,
+        object: `cat`,
+        phraseEn: `a brown cat`,
+        phraseIt: `un gatto marrone`
+      },
+      {
+        id: `black`,
+        en: `Black`,
+        it: `Nero`,
+        phonetic: `/blæk/ ("blèk")`,
+        category: `neutral`,
+        swatchVar: `--swatch-black`,
+        object: `hat`,
+        phraseEn: `a black hat`,
+        phraseIt: `un cappello nero`
+      },
+      {
+        id: `white`,
+        en: `White`,
+        it: `Bianco`,
+        phonetic: `/waɪt/ ("uàit")`,
+        category: `neutral`,
+        swatchVar: `--swatch-white`,
+        object: `cloud`,
+        phraseEn: `a white cloud`,
+        phraseIt: `una nuvola bianca`
+      },
+      {
+        id: `grey`,
+        en: `Grey / Gray`,
+        it: `Grigio`,
+        phonetic: `/ɡreɪ/ ("grèi")`,
+        category: `neutral`,
+        swatchVar: `--swatch-grey`,
+        object: `hat`,
+        phraseEn: `a grey hat`,
+        phraseIt: `un cappello grigio`
+      }
+    ];
+
+    const OBJECTS_META = {
+      apple: { en: `apple`, itM: `mela`, artIt: `una`, defIt: `la mela` },
+      sun: { en: `sun`, itM: `sole`, artIt: `un`, defIt: `il sole` },
+      tree: { en: `tree`, itM: `albero`, artIt: `un`, defIt: `l'albero` },
+      cat: { en: `cat`, itM: `gatto`, artIt: `un`, defIt: `il gatto` },
+      bag: { en: `bag`, itM: `zaino`, artIt: `uno`, defIt: `lo zaino` },
+      flower: { en: `flower`, itM: `fiore`, artIt: `un`, defIt: `il fiore` },
+      book: { en: `book`, itM: `libro`, artIt: `un`, defIt: `il libro` },
+      hat: { en: `hat`, itM: `cappello`, artIt: `un`, defIt: `il cappello` },
+      cloud: { en: `cloud`, itM: `nuvola`, artIt: `una`, defIt: `la nuvola` }
+    };
+
+    const IT_COLOR_INFLECT = {
+      red: { m: `rosso`, f: `rossa` },
+      blue: { m: `blu`, f: `blu` },
+      'light blue': { m: `azzurro`, f: `azzurra` },
+      yellow: { m: `giallo`, f: `gialla` },
+      green: { m: `verde`, f: `verde` },
+      orange: { m: `arancione`, f: `arancione` },
+      purple: { m: `viola`, f: `viola` },
+      pink: { m: `rosa`, f: `rosa` },
+      brown: { m: `marrone`, f: `marrone` },
+      black: { m: `nero`, f: `nera` },
+      white: { m: `bianco`, f: `bianca` },
+      grey: { m: `grigio`, f: `grigia` }
+    };
+
+    const FEM_OBJECTS = new Set([`apple`, `cloud`]);
+
+    const DRILL2_DIALOGUES = [
+      {
+        speakerA: `Sora`,
+        speakerB: `Kai`,
+        lineA: `___ colour is the sun?`,
+        lineAIt: `Di che colore è il sole?`,
+        lineB: `It's yellow.`,
+        lineBIt: `È giallo.`,
+        options: [`What`, `Who`, `Where`, `How`],
+        answer: `What`,
+        tip: `Per chiedere "di che colore è..." in inglese si usa sempre "What colour is...?".`
+      },
+      {
+        speakerA: `Kai`,
+        speakerB: `Sora`,
+        lineA: `Is your school bag red?`,
+        lineAIt: `Il tuo zaino è rosso?`,
+        lineB: `No, it ___. It's blue.`,
+        lineBIt: `No, non lo è. È blu.`,
+        options: [`isn't`, `aren't`, `not`, `don't`],
+        answer: `isn't`,
+        tip: `Con il soggetto singolare "it", la risposta breve negativa è "No, it isn't."`
+      },
+      {
+        speakerA: `Sora`,
+        speakerB: `Kai`,
+        lineA: `What's your ___ colour?`,
+        lineAIt: `Qual è il tuo colore preferito?`,
+        lineB: `My favourite colour is green.`,
+        lineBIt: `Il mio colore preferito è il verde.`,
+        options: [`favourite`, `like`, `best`, `happy`],
+        answer: `favourite`,
+        tip: `"Favourite" (o "favorite" in inglese americano) significa "preferito".`
+      },
+      {
+        speakerA: `Kai`,
+        speakerB: `Sora`,
+        lineA: `What is it?`,
+        lineAIt: `Che cos'è?`,
+        lineB: `It is ___ orange cat.`,
+        lineBIt: `È un gatto arancione.`,
+        options: [`an`, `a`, `the`, `is`],
+        answer: `an`,
+        tip: `Davanti a "orange" (che inizia con suono vocalico) l'articolo indeterminativo diventa "an".`
+      },
+      {
+        speakerA: `Sora`,
+        speakerB: `Kai`,
+        lineA: `___ the flower purple?`,
+        lineAIt: `Il fiore è viola?`,
+        lineB: `Yes, it is.`,
+        lineBIt: `Sì, lo è.`,
+        options: [`Is`, `Are`, `Do`, `What`],
+        answer: `Is`,
+        tip: `Nelle domande Sì/No il verbo "to be" (Is) precede il soggetto singolare ("the flower").`
+      },
+      {
+        speakerA: `Kai`,
+        speakerB: `Sora`,
+        lineA: `What colour ___ the tree?`,
+        lineAIt: `Di che colore è l'albero?`,
+        lineB: `The tree is green and brown.`,
+        lineBIt: `L'albero è verde e marrone.`,
+        options: [`is`, `are`, `am`, `it`],
+        answer: `is`,
+        tip: `"The tree" è singolare, quindi richiede la terza persona singolare "is".`
+      },
+      {
+        speakerA: `Sora`,
+        speakerB: `Kai`,
+        lineA: `Is the cloud black?`,
+        lineAIt: `La nuvola è nera?`,
+        lineB: `No, it isn't. It's ___.`,
+        lineBIt: `No, non lo è. È bianca.`,
+        options: [`white`, `black`, `apple`, `what`],
+        answer: `white`,
+        tip: `Se la nuvola non è nera ("No, it isn't"), la descrizione coerente è "white" (bianca).`
+      },
+      {
+        speakerA: `Kai`,
+        speakerB: `Sora`,
+        lineA: `Look at my drawing!`,
+        lineAIt: `Guarda il mio disegno!`,
+        lineB: `Wow, it's a ___!`,
+        lineBIt: `Wow, è un libro rosa!`,
+        options: [`pink book`, `book pink`, `a pink`, `pinks book`],
+        answer: `pink book`,
+        tip: `In inglese l'aggettivo di colore precede sempre il sostantivo ed è invariabile (mai al plurale).`
+      }
+    ];
+
+    const DRILL3_SENTENCES = [
+      {
+        promptIt: `Di che colore è il sole?`,
+        tokens: [`What`, `colour`, `is`, `the`, `sun`, `?`],
+        tip: `Le domande iniziano con "What colour", poi verbo "is" e poi soggetto.`
+      },
+      {
+        promptIt: `È una mela rossa.`,
+        tokens: [`It`, `is`, `a`, `red`, `apple`, `.`],
+        tip: `Ricorda l'ordine: articolo (a) + colore (red) + oggetto (apple).`
+      },
+      {
+        promptIt: `Il mio colore preferito è il blu.`,
+        tokens: [`My`, `favourite`, `colour`, `is`, `blue`, `.`],
+        tip: `"My favourite colour" è il soggetto seguito da "is blue."`
+      },
+      {
+        promptIt: `Il gatto è arancione?`,
+        tokens: [`Is`, `the`, `cat`, `orange`, `?`],
+        tip: `Domanda Sì/No: inizia con "Is", poi "the cat", infine il colore.`
+      },
+      {
+        promptIt: `No, non lo è. È verde.`,
+        tokens: [`No,`, `it`, `isn't.`, `It's`, `green`, `.`],
+        tip: `Prima la risposta breve negativa ("No, it isn't."), poi la correzione ("It's green.").`
+      },
+      {
+        promptIt: `Ho uno zaino viola.`,
+        tokens: [`I`, `have`, `a`, `purple`, `bag`, `.`],
+        tip: `"I have" (io ho) + articolo "a" + colore "purple" + oggetto "bag".`
+      }
+    ];
+
+    /* =========================================================================
+       2. APP STATE & PERSISTENCE
+       ========================================================================= */
+    const DEFAULT_STATE = {
+      masteredColors: [],
+      correctCount: 0,
+      xp: 0,
+      voiceAccent: `en-GB`,
+      sfxEnabled: true,
+      drill2Done: {},
+      drill3Done: {}
+    };
+
+    let appState = JSON.parse(JSON.stringify(DEFAULT_STATE));
+    let currentColorFilter = `all`;
+    let activeDojoTab = `drill1`;
+
+    // Drill 1 state
+    let d1Mode = `visual`;
+    let d1Deck = [];
+    let d1Index = 0;
+    let d1Score = 0;
+    let d1Streak = 0;
+    let d1Answered = false;
+
+    // Drill 2 state
+    let d2Index = 0;
+    let d2Answered = false;
+
+    // Drill 3 state
+    let d3Index = 0;
+    let d3PlacedIndices = [];
+    let d3Scrambled = [];
+    let d3SolvedCurrent = false;
+
+    let audioCtx = null;
+
+    async function loadAppState() {
+      try {
+        if (window.notebookAppApi && typeof window.notebookAppApi.getAppState === `function`) {
+          const saved = await window.notebookAppApi.getAppState();
+          if (saved && typeof saved === `object`) {
+            appState = {
+              masteredColors: Array.isArray(saved.masteredColors) ? saved.masteredColors : [],
+              correctCount: typeof saved.correctCount === `number` ? saved.correctCount : 0,
+              xp: typeof saved.xp === `number` ? saved.xp : 0,
+              voiceAccent: saved.voiceAccent === `en-US` ? `en-US` : `en-GB`,
+              sfxEnabled: typeof saved.sfxEnabled === `boolean` ? saved.sfxEnabled : true,
+              drill2Done: saved.drill2Done && typeof saved.drill2Done === `object` ? saved.drill2Done : {},
+              drill3Done: saved.drill3Done && typeof saved.drill3Done === `object` ? saved.drill3Done : {}
+            };
+          }
+        }
+      } catch (err) {
+        // Fallback silently to default state
+      }
+    }
+
+    async function persistState() {
+      try {
+        if (window.notebookAppApi && typeof window.notebookAppApi.setAppState === `function`) {
+          await window.notebookAppApi.setAppState(appState);
+        }
+      } catch (err) {
+        // Ignore persistence errors in standalone preview
+      }
+    }
+
+    /* =========================================================================
+       3. SVG ARTWORK GENERATORS (Manga Portraits & Colored Objects)
+       ========================================================================= */
+    function renderMangaPortrait(character) {
+      if (character === `Sora`) {
+        return `<svg viewBox="0 0 64 64" width="54" height="54" aria-hidden="true">
+          <rect width="64" height="64" fill="var(--surface-container-high)"/>
+          <path d="M14 58 C16 44, 48 44, 50 58" fill="var(--primary)" stroke="var(--outline)" stroke-width="2.2"/>
+          <path d="M16 26 C16 12, 48 12, 48 26 L50 42 L14 42 Z" fill="var(--on-surface)" stroke="var(--outline)" stroke-width="2"/>
+          <circle cx="32" cy="32" r="13" fill="var(--surface-container-low)" stroke="var(--outline)" stroke-width="2.2"/>
+          <path d="M19 25 Q26 17 33 23 Q40 16 45 25" fill="var(--on-surface)"/>
+          <circle cx="27" cy="32" r="2.2" fill="var(--on-surface)"/>
+          <circle cx="37" cy="32" r="2.2" fill="var(--on-surface)"/>
+          <path d="M28 38 Q32 41 36 38" fill="none" stroke="var(--tertiary)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M44 19 L49 15 L48 22 Z" fill="var(--secondary)" stroke="var(--outline)" stroke-width="1.5"/>
+        </svg>`;
+      }
+      return `<svg viewBox="0 0 64 64" width="54" height="54" aria-hidden="true">
+        <rect width="64" height="64" fill="var(--surface-container)"/>
+        <path d="M14 58 C16 44, 48 44, 50 58" fill="var(--secondary)" stroke="var(--outline)" stroke-width="2.2"/>
+        <circle cx="32" cy="32" r="13" fill="var(--surface-container-low)" stroke="var(--outline)" stroke-width="2.2"/>
+        <path d="M17 26 L21 15 L28 20 L34 12 L40 19 L47 16 L46 27 Q32 21 17 26 Z" fill="var(--primary)" stroke="var(--outline)" stroke-width="2" stroke-linejoin="round"/>
+        <circle cx="27" cy="33" r="2.2" fill="var(--on-surface)"/>
+        <circle cx="37" cy="33" r="2.2" fill="var(--on-surface)"/>
+        <path d="M29 39 Q32 41 35 39" fill="none" stroke="var(--on-surface)" stroke-width="2" stroke-linecap="round"/>
+      </svg>`;
+    }
+
+    function renderObjectSvg(objectKey, swatchVar, sizePx) {
+      const s = sizePx || 52;
+      const fillExpr = `var(${swatchVar})`;
+      const stroke = `var(--outline)`;
+      switch (objectKey) {
+        case `apple`:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <path d="M32 18 C32 10, 38 7, 42 9" fill="none" stroke="${stroke}" stroke-width="3" stroke-linecap="round"/>
+            <path d="M33 14 C38 8, 48 9, 46 16 C41 19, 35 18, 33 14 Z" fill="var(--swatch-green)" stroke="${stroke}" stroke-width="2"/>
+            <path d="M32 21 C24 16, 13 22, 15 36 C17 48, 25 54, 32 51 C39 54, 47 48, 49 36 C51 22, 40 16, 32 21 Z" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+          </svg>`;
+        case `sun`:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <g stroke="${stroke}" stroke-width="2.5" stroke-linecap="round">
+              <line x1="32" y1="6" x2="32" y2="14"/><line x1="32" y1="50" x2="32" y2="58"/>
+              <line x1="6" y1="32" x2="14" y2="32"/><line x1="50" y1="32" x2="58" y2="32"/>
+              <line x1="14" y1="14" x2="19" y2="19"/><line x1="45" y1="45" x2="50" y2="50"/>
+              <line x1="50" y1="14" x2="45" y2="19"/><line x1="19" y1="45" x2="14" y2="50"/>
+            </g>
+            <circle cx="32" cy="32" r="14" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+          </svg>`;
+        case `tree`:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <rect x="27" y="40" width="10" height="16" fill="var(--swatch-brown)" stroke="${stroke}" stroke-width="2.5"/>
+            <circle cx="32" cy="24" r="14" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+            <circle cx="22" cy="32" r="10" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+            <circle cx="42" cy="32" r="10" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+          </svg>`;
+        case `cat`:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <polygon points="16,28 19,12 29,22" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5" stroke-linejoin="round"/>
+            <polygon points="48,28 45,12 35,22" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5" stroke-linejoin="round"/>
+            <circle cx="32" cy="36" r="16" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+            <circle cx="26" cy="34" r="2.2" fill="var(--swatch-white)" stroke="${stroke}" stroke-width="1.5"/>
+            <circle cx="38" cy="34" r="2.2" fill="var(--swatch-white)" stroke="${stroke}" stroke-width="1.5"/>
+            <polygon points="30,39 34,39 32,42" fill="var(--secondary)"/>
+          </svg>`;
+        case `bag`:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <path d="M23 19 C23 11, 41 11, 41 19" fill="none" stroke="${stroke}" stroke-width="3"/>
+            <rect x="15" y="19" width="34" height="34" rx="7" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+            <rect x="21" y="34" width="22" height="13" rx="3" fill="var(--surface-container-low)" stroke="${stroke}" stroke-width="2"/>
+          </svg>`;
+        case `flower`:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <line x1="32" y1="36" x2="32" y2="57" stroke="var(--swatch-green)" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="32" cy="17" r="8" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2"/>
+            <circle cx="44" cy="26" r="8" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2"/>
+            <circle cx="39" cy="39" r="8" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2"/>
+            <circle cx="25" cy="39" r="8" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2"/>
+            <circle cx="20" cy="26" r="8" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2"/>
+            <circle cx="32" cy="29" r="6" fill="var(--swatch-yellow)" stroke="${stroke}" stroke-width="2"/>
+          </svg>`;
+        case `book`:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <rect x="14" y="12" width="36" height="40" rx="4" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+            <line x1="22" y1="12" x2="22" y2="52" stroke="${stroke}" stroke-width="2.5"/>
+            <rect x="27" y="20" width="17" height="10" rx="2" fill="var(--surface-container-low)" stroke="${stroke}" stroke-width="2"/>
+          </svg>`;
+        case `hat`:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <path d="M20 39 L24 16 L40 16 L44 39 Z" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5" stroke-linejoin="round"/>
+            <rect x="22" y="32" width="20" height="5" fill="var(--primary-container)" stroke="${stroke}" stroke-width="2"/>
+            <ellipse cx="32" cy="41" rx="23" ry="6" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5"/>
+          </svg>`;
+        case `cloud`:
+        default:
+          return `<svg viewBox="0 0 64 64" width="${s}" height="${s}" aria-hidden="true">
+            <path d="M18 46 H46 C52 46 55 41 54 35 C53 30 48 27 43 28 C41 20 32 16 25 20 C20 23 18 28 19 31 C13 32 10 37 11 41 C12 44 15 46 18 46 Z" style="fill: ${fillExpr};" stroke="${stroke}" stroke-width="2.5" stroke-linejoin="round"/>
+          </svg>`;
+      }
+    }
+
+    /* =========================================================================
+       4. AUDIO: WEB SPEECH API & SYNTH SFX
+       ========================================================================= */
+    function playChime(isGood) {
+      if (!appState.sfxEnabled) return;
+      try {
+        const AudioCtor = window.AudioContext || window.webkitAudioContext;
+        if (!AudioCtor) return;
+        if (!audioCtx) audioCtx = new AudioCtor();
+        if (audioCtx.state === `suspended`) audioCtx.resume();
+
+        const now = audioCtx.currentTime;
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = isGood ? `triangle` : `sawtooth`;
+        osc.frequency.setValueAtTime(isGood ? 523.25 : 220, now);
+        osc.frequency.exponentialRampToValueAtTime(isGood ? 783.99 : 164.81, now + 0.14);
+
+        gain.gain.setValueAtTime(0.08, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.21);
+      } catch (e) {
+        // Audio context unavailable
+      }
+    }
+
+    function speakFromEl(btn) {
+      if (btn && btn.dataset && btn.dataset.speak) {
+        speakEnglish(btn.dataset.speak);
+      }
+    }
+
+    function speakEnglish(text) {
+      const statusEl = document.getElementById(`hud-status-msg`);
+      if (`speechSynthesis` in window) {
+        window.speechSynthesis.cancel();
+        const utter = new SpeechSynthesisUtterance(text);
+        utter.lang = appState.voiceAccent;
+        utter.rate = 0.9;
+        const voices = window.speechSynthesis.getVoices();
+        const match = voices.find(v => v.lang && v.lang.startsWith(appState.voiceAccent));
+        if (match) utter.voice = match;
+        window.speechSynthesis.speak(utter);
+        if (statusEl) statusEl.textContent = `Pronuncia (${appState.voiceAccent === `en-GB` ? `UK` : `US`}): "${text}"`;
+      } else {
+        playChime(true);
+        if (statusEl) statusEl.textContent = `Audio sintetico: sintesi vocale non supportata in questo browser.`;
+      }
+    }
+
+    /* =========================================================================
+       5. HUD & CONTROLS
+       ========================================================================= */
+    function computeRank(xp) {
+      if (xp >= 220) return `Sensei Manga dell'Inglese`;
+      if (xp >= 120) return `Maestro dei Dialoghi`;
+      if (xp >= 50) return `Apprendista dei Colori`;
+      return `Principiante Curioso`;
+    }
+
+    function updateHud() {
+      const colorsEl = document.getElementById(`hud-colors-count`);
+      const correctEl = document.getElementById(`hud-correct-count`);
+      const xpEl = document.getElementById(`hud-xp`);
+      const rankEl = document.getElementById(`hud-rank`);
+      const pctEl = document.getElementById(`hud-progress-pct`);
+      const fillEl = document.getElementById(`hud-progress-fill`);
+      const barEl = document.getElementById(`hud-progressbar`);
+      const voiceEl = document.getElementById(`voice-accent-label`);
+      const sfxEl = document.getElementById(`sfx-label`);
+
+      if (colorsEl) colorsEl.textContent = `${appState.masteredColors.length}/12`;
+      if (correctEl) correctEl.textContent = `${appState.correctCount}`;
+      if (xpEl) xpEl.textContent = `${appState.xp}`;
+      if (rankEl) rankEl.textContent = computeRank(appState.xp);
+      if (voiceEl) voiceEl.textContent = appState.voiceAccent === `en-GB` ? `UK` : `US`;
+      if (sfxEl) sfxEl.textContent = appState.sfxEnabled ? `Attivi` : `Disattivi`;
+
+      const d2DoneCount = Object.keys(appState.drill2Done).length;
+      const d3DoneCount = Object.keys(appState.drill3Done).length;
+      const totalUnits = 12 + DRILL2_DIALOGUES.length + DRILL3_SENTENCES.length;
+      const completedUnits = appState.masteredColors.length + d2DoneCount + d3DoneCount;
+      const pct = Math.min(100, Math.round((completedUnits / totalUnits) * 100));
+
+      if (pctEl) pctEl.textContent = `${pct}%`;
+      if (fillEl) fillEl.style.width = `${pct}%`;
+      if (barEl) barEl.setAttribute(`aria-valuenow`, `${pct}`);
+    }
+
+    function toggleVoiceAccent() {
+      appState.voiceAccent = appState.voiceAccent === `en-GB` ? `en-US` : `en-GB`;
+      updateHud();
+      persistState();
+    }
+
+    function toggleSfx() {
+      appState.sfxEnabled = !appState.sfxEnabled;
+      updateHud();
+      persistState();
+    }
+
+    function resetAllProgress(btn) {
+      if (!btn) return;
+      if (btn.dataset.armed !== `true`) {
+        btn.dataset.armed = `true`;
+        btn.textContent = `Clicca di nuovo per confermare`;
+        return;
+      }
+      btn.dataset.armed = `false`;
+      btn.innerHTML = `<i data-lucide="rotate-ccw" aria-hidden="true"></i> Azzera progressi`;
+      refreshLucide();
+
+      appState = JSON.parse(JSON.stringify(DEFAULT_STATE));
+      persistState();
+      updateHud();
+      renderColorCards();
+      restartDrill1();
+      restartDrill2();
+      restartDrill3();
+      const statusEl = document.getElementById(`hud-status-msg`);
+      if (statusEl) statusEl.textContent = `Progressi azzerati. Puoi ripartire da zero!`;
+    }
+
+    /* =========================================================================
+       6. CHAPTER 1: COLOR CARDS
+       ========================================================================= */
+    function setColorFilter(filterKey) {
+      currentColorFilter = filterKey;
+      const ids = [`all`, `warm`, `cool`, `neutral`, `todo`];
+      ids.forEach(key => {
+        const btn = document.getElementById(`filter-${key}`);
+        if (!btn) return;
+        btn.classList.toggle(`btn-active`, key === filterKey);
+        btn.classList.toggle(`btn-ghost`, key !== filterKey);
+      });
+      renderColorCards();
+    }
+
+    function toggleColorMastered(colorId) {
+      const idx = appState.masteredColors.indexOf(colorId);
+      if (idx === -1) {
+        appState.masteredColors.push(colorId);
+        appState.xp += 10;
+        playChime(true);
+      } else {
+        appState.masteredColors.splice(idx, 1);
+        appState.xp = Math.max(0, appState.xp - 10);
+      }
+      persistState();
+      updateHud();
+      renderColorCards();
+    }
+
+    function renderColorCards() {
+      const grid = document.getElementById(`color-cards-grid`);
+      if (!grid) return;
+
+      const filtered = COLORS_DATA.filter(c => {
+        if (currentColorFilter === `all`) return true;
+        if (currentColorFilter === `todo`) return !appState.masteredColors.includes(c.id);
+        return c.category === currentColorFilter;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `<div class="ink-block" style="grid-column: 1 / -1;">
+          <h3 class="subhead">Tutti i colori completati!</h3>
+          <p style="margin-top: var(--space-xs);">Non ci sono più colori da imparare in questa vista. Passa al Dojo degli Esercizi o visualizza tutti i colori.</p>
+          <button type="button" class="btn btn-primary" style="margin-top: var(--space-md);" onclick="setColorFilter('all')">Mostra tutti i 12 colori</button>
+        </div>`;
+        return;
+      }
+
+      grid.innerHTML = filtered.map((c, idx) => {
+        const mastered = appState.masteredColors.includes(c.id);
+        const speakText = `${c.id}. ${c.phraseEn}.`;
+        return `<div class="color-card-wrapper">
+          <article class="ink-block color-card ${mastered ? `is-mastered` : ``}">
+          <div class="color-card-top">
+            <div class="swatch-frame" style="background-color: var(${c.swatchVar});">
+              ${renderObjectSvg(c.object, c.swatchVar, 44)}
+            </div>
+            <div class="color-word-group">
+              <span class="color-en">${c.en}</span>
+              <span class="color-it">${c.it}</span>
+              <span class="color-phonetic">${c.phonetic}</span>
+            </div>
+          </div>
+
+          <div class="color-example-box">
+            <div style="flex: 1;">
+              <span class="color-example-en">${c.phraseEn}</span>
+              <span class="color-example-it">${c.phraseIt}</span>
+            </div>
+            <span class="stamp ${mastered ? `` : `stamp-outline`}">${mastered ? `Imparato` : c.category === `warm` ? `Caldo` : c.category === `cool` ? `Freddo` : `Neutro`}</span>
+          </div>
+
+          <div class="color-card-actions">
+            <button type="button" class="btn btn-secondary btn-sm" data-speak="${speakText}" onclick="speakFromEl(this)">
+              <i data-lucide="volume-2" aria-hidden="true"></i>
+              Ascolta
+            </button>
+            <button type="button" class="btn ${mastered ? `btn-active` : `btn-ghost`} btn-sm" onclick="toggleColorMastered('${c.id}')">
+              <i data-lucide="${mastered ? `check` : `bookmark-plus`}" aria-hidden="true"></i>
+              ${mastered ? `Memorizzato` : `Segna imparato`}
+            </button>
+          </div>
+        </article>
+        </div>`;
+      }).join(``);
+
+      refreshLucide();
+    }
+
+    /* =========================================================================
+       7. CHAPTER 2: DIALOGUE PORTRAITS & SENTENCE BUILDER
+       ========================================================================= */
+    function initDialoguePortraits() {
+      const slots = [
+        [`avatar-sora-1`, `Sora`],
+        [`avatar-kai-1`, `Kai`],
+        [`avatar-sora-2`, `Sora`],
+        [`avatar-kai-2`, `Kai`],
+        [`avatar-kai-3`, `Kai`],
+        [`avatar-sora-3`, `Sora`]
+      ];
+      slots.forEach(([id, who]) => {
+        const el = document.getElementById(id);
+        if (el) el.innerHTML = renderMangaPortrait(who);
+      });
+    }
+
+    function getArticleForWord(word) {
+      return /^[aeiou]/i.test(word) ? `an` : `a`;
+    }
+
+    function getBuilderResult() {
+      const patternEl = document.getElementById(`builder-pattern`);
+      const objectEl = document.getElementById(`builder-object`);
+      const colorEl = document.getElementById(`builder-color`);
+      if (!patternEl || !objectEl || !colorEl) {
+        return { enHtml: ``, enPlain: ``, it: ``, tip: ``, obj: `apple`, colorId: `red` };
+      }
+
+      const pattern = patternEl.value;
+      const obj = objectEl.value;
+      const colorId = colorEl.value;
+      const objInfo = OBJECTS_META[obj] || OBJECTS_META.apple;
+      const inflect = IT_COLOR_INFLECT[colorId] || { m: colorId, f: colorId };
+      const itAdj = FEM_OBJECTS.has(obj) ? inflect.f : inflect.m;
+      const article = getArticleForWord(colorId);
+
+      if (pattern === `desc`) {
+        return {
+          enHtml: `It's ${article} <span class="flood-highlight">${colorId}</span> ${objInfo.en}.`,
+          enPlain: `It's ${article} ${colorId} ${objInfo.en}.`,
+          it: `È ${objInfo.artIt} ${objInfo.itM} ${itAdj}.`,
+          tip: `Nota l'ordine: in inglese il colore (${colorId}) precede il nome (${objInfo.en}). Si usa "${article}" perché "${colorId}" inizia per ${article === `an` ? `vocale` : `consonante`}.`,
+          obj,
+          colorId
+        };
+      }
+      if (pattern === `state`) {
+        return {
+          enHtml: `The ${objInfo.en} is <span class="flood-highlight">${colorId}</span>.`,
+          enPlain: `The ${objInfo.en} is ${colorId}.`,
+          it: `${objInfo.defIt.charAt(0).toUpperCase() + objInfo.defIt.slice(1)} è ${itAdj}.`,
+          tip: `Con "The + nome + is + colore" descrivi un oggetto specifico che stai indicando.`,
+          obj,
+          colorId
+        };
+      }
+      if (pattern === `ask`) {
+        return {
+          enHtml: `What <span class="flood-highlight">colour</span> is the ${objInfo.en}?`,
+          enPlain: `What colour is the ${objInfo.en}?`,
+          it: `Di che colore è ${objInfo.defIt}?`,
+          tip: `Struttura interrogativa: "What colour is" seguito dall'oggetto specifico ("the ${objInfo.en}").`,
+          obj,
+          colorId
+        };
+      }
+      if (pattern === `yesno`) {
+        return {
+          enHtml: `Is the ${objInfo.en} <span class="flood-highlight">${colorId}</span>?`,
+          enPlain: `Is the ${objInfo.en} ${colorId}?`,
+          it: `${objInfo.defIt.charAt(0).toUpperCase() + objInfo.defIt.slice(1)} è ${itAdj}?`,
+          tip: `Per chiedere conferma, inverti soggetto e verbo: "Is the ${objInfo.en} ${colorId}?". Risposte: "Yes, it is." / "No, it isn't."`,
+          obj,
+          colorId
+        };
+      }
+      return {
+        enHtml: `My favourite colour is <span class="flood-highlight">${colorId}</span>.`,
+        enPlain: `My favourite colour is ${colorId}.`,
+        it: `Il mio colore preferito è ${inflect.m}.`,
+        tip: `Usa questa frase per rispondere alla domanda "What's your favourite colour?".`,
+        obj,
+        colorId
+      };
+    }
+
+    function updateBuilder() {
+      const res = getBuilderResult();
+      const colorObj = COLORS_DATA.find(c => c.id === res.colorId) || COLORS_DATA[0];
+      const svgSlot = document.getElementById(`builder-svg-slot`);
+      const enOut = document.getElementById(`builder-en-out`);
+      const itOut = document.getElementById(`builder-it-out`);
+      const tipOut = document.getElementById(`builder-tip-out`);
+
+      if (svgSlot) svgSlot.innerHTML = renderObjectSvg(res.obj, colorObj.swatchVar, 84);
+      if (enOut) enOut.innerHTML = res.enHtml;
+      if (itOut) itOut.textContent = res.it;
+      if (tipOut) tipOut.textContent = res.tip;
+    }
+
+    function speakBuilderSentence() {
+      const res = getBuilderResult();
+      speakEnglish(res.enPlain);
+    }
+
+    function randomizeBuilder() {
+      const p = document.getElementById(`builder-pattern`);
+      const o = document.getElementById(`builder-object`);
+      const c = document.getElementById(`builder-color`);
+      if (p) p.selectedIndex = Math.floor(Math.random() * p.options.length);
+      if (o) o.selectedIndex = Math.floor(Math.random() * o.options.length);
+      if (c) c.selectedIndex = Math.floor(Math.random() * c.options.length);
+      updateBuilder();
+    }
+
+    /* =========================================================================
+       8. CHAPTER 3: PRACTICE DOJO
+       ========================================================================= */
+    function switchDojoTab(tabKey) {
+      activeDojoTab = tabKey;
+      const map = [
+        [`drill1`, `tab-drill-1`, `panel-drill1`],
+        [`drill2`, `tab-drill-2`, `panel-drill2`],
+        [`drill3`, `tab-drill-3`, `panel-drill3`]
+      ];
+      map.forEach(([key, tabId, panelId]) => {
+        const t = document.getElementById(tabId);
+        const p = document.getElementById(panelId);
+        const isActive = key === tabKey;
+        if (t) {
+          t.setAttribute(`aria-selected`, isActive ? `true` : `false`);
+          t.classList.toggle(`btn-active`, isActive);
+          t.classList.toggle(`btn-ghost`, !isActive);
+        }
+        if (p) p.classList.toggle(`active`, isActive);
+      });
+    }
+
+    function shuffleArray(arr) {
+      const copy = arr.slice();
+      for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const tmp = copy[i];
+        copy[i] = copy[j];
+        copy[j] = tmp;
+      }
+      return copy;
+    }
+
+    /* --- DRILL 1: COLOR FLASH QUIZ --- */
+    function setDrill1Mode(mode) {
+      d1Mode = mode;
+      const btns = [
+        [`visual`, `d1-mode-visual`],
+        [`en2it`, `d1-mode-it`],
+        [`audio`, `d1-mode-audio`]
+      ];
+      btns.forEach(([m, id]) => {
+        const b = document.getElementById(id);
+        if (!b) return;
+        b.classList.toggle(`btn-secondary`, m === mode);
+        b.classList.toggle(`btn-ghost`, m !== mode);
+      });
+      restartDrill1();
+    }
+
+    function buildDrill1Question(targetColor) {
+      const distractors = shuffleArray(COLORS_DATA.filter(c => c.id !== targetColor.id)).slice(0, 3);
+      const options = shuffleArray([targetColor, ...distractors]);
+      return { target: targetColor, options };
+    }
+
+    function restartDrill1() {
+      const selected = shuffleArray(COLORS_DATA).slice(0, 10);
+      d1Deck = selected.map(buildDrill1Question);
+      d1Index = 0;
+      d1Score = 0;
+      d1Streak = 0;
+      d1Answered = false;
+      renderDrill1();
+    }
+
+    function renderDrill1() {
+      const stage = document.getElementById(`d1-stage`);
+      const badge = document.getElementById(`d1-progress-badge`);
+      const streakEl = document.getElementById(`d1-streak-text`);
+      if (!stage) return;
+
+      if (streakEl) streakEl.textContent = `Serie attuale: ${d1Streak}`;
+
+      if (d1Index >= d1Deck.length) {
+        if (badge) badge.textContent = `Sfida completata!`;
+        stage.innerHTML = `<div class="quiz-prompt-card">
+          <div>
+            <span class="kicker-text">Risultato Sfida Colore Lampo</span>
+            <h3 class="subhead" style="margin-top: var(--space-xs);">Hai totalizzato ${d1Score} su ${d1Deck.length} risposte corrette!</h3>
+            <p style="margin-top: var(--space-xs);">Ottimo lavoro: continua con una nuova serie o passa al completamento dei dialoghi manga.</p>
+            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-md); flex-wrap: wrap;">
+              <button type="button" class="btn btn-primary" onclick="restartDrill1()">Gioca un'altra serie</button>
+              <button type="button" class="btn btn-secondary" onclick="switchDojoTab('drill2')">Vai ai Dialoghi Manga</button>
+            </div>
+          </div>
+        </div>`;
+        return;
+      }
+
+      const q = d1Deck[d1Index];
+      const t = q.target;
+      if (badge) badge.textContent = `Domanda ${d1Index + 1} di ${d1Deck.length}`;
+
+      let promptHtml = ``;
+      if (d1Mode === `visual`) {
+        promptHtml = `<div class="swatch-frame" style="width: 86px; height: 86px; background-color: var(${t.swatchVar});">
+            ${renderObjectSvg(t.object, t.swatchVar, 58)}
+          </div>
+          <div style="flex: 1;">
+            <span class="kicker-text">Domanda Visiva</span>
+            <h3 class="subhead">What colour is it? (${t.it})</h3>
+            <p style="margin-top: var(--space-xs); color: var(--on-surface-variant);">Scegli il nome inglese corretto per questo colore.</p>
+          </div>`;
+      } else if (d1Mode === `en2it`) {
+        promptHtml = `<div style="flex: 1;">
+            <span class="kicker-text">Traduci in Italiano</span>
+            <h3 class="subhead" style="font-size: 1.8rem;">${t.en}</h3>
+            <p style="margin-top: var(--space-xs); color: var(--on-surface-variant);">Pronuncia: ${t.phonetic}. Che colore significa in italiano?</p>
+          </div>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="speakEnglish('${t.id}')">
+            <i data-lucide="volume-2" aria-hidden="true"></i>
+            Ascolta
+          </button>`;
+      } else {
+        promptHtml = `<div style="flex: 1;">
+            <span class="kicker-text">Sfida Solo Ascolto</span>
+            <h3 class="subhead">Premi "Ascolta colore" e riconosci la parola</h3>
+            <p style="margin-top: var(--space-xs); color: var(--on-surface-variant);">Scegli l'opzione corrispondente al colore pronunciato in inglese.</p>
+          </div>
+          <button type="button" class="btn btn-primary" onclick="speakEnglish('${t.id}')">
+            <i data-lucide="volume-2" aria-hidden="true"></i>
+            Ascolta colore
+          </button>`;
+      }
+
+      const optionsHtml = q.options.map((opt, idx) => {
+        const label = d1Mode === `en2it` ? opt.it : opt.en;
+        return `<button type="button" class="option-btn" id="d1-opt-${idx}" onclick="answerDrill1(${idx})">
+          <span>${label}</span>
+          <span class="kicker-text">${idx + 1}</span>
+        </button>`;
+      }).join(``);
+
+      stage.innerHTML = `<div class="quiz-prompt-card">${promptHtml}</div>
+        <div class="options-grid" style="margin-top: var(--space-md);">${optionsHtml}</div>
+        <div id="d1-feedback-slot" style="margin-top: var(--space-md);"></div>`;
+
+      refreshLucide();
+    }
+
+    function answerDrill1(optIndex) {
+      if (d1Answered) return;
+      d1Answered = true;
+      const q = d1Deck[d1Index];
+      const chosen = q.options[optIndex];
+      const isRight = chosen.id === q.target.id;
+
+      q.options.forEach((opt, i) => {
+        const btn = document.getElementById(`d1-opt-${i}`);
+        if (!btn) return;
+        btn.disabled = true;
+        if (opt.id === q.target.id) btn.classList.add(`is-correct`);
+        else if (i === optIndex && !isRight) btn.classList.add(`is-wrong`);
+      });
+
+      if (isRight) {
+        d1Score += 1;
+        d1Streak += 1;
+        appState.correctCount += 1;
+        appState.xp += 15;
+        playChime(true);
+      } else {
+        d1Streak = 0;
+        playChime(false);
+      }
+
+      persistState();
+      updateHud();
+
+      const fb = document.getElementById(`d1-feedback-slot`);
+      if (fb) {
+        fb.innerHTML = `<div class="feedback-banner ${isRight ? `correct` : `wrong`}">
+          <div>
+            <strong>${isRight ? `Esatto! (+15 XP)` : `Non proprio!`}</strong>
+            <p style="margin-top: 2px;"><strong>${q.target.en}</strong> significa <strong>${q.target.it}</strong> (es. <em>${q.target.phraseEn}</em>).</p>
+          </div>
+          <button type="button" class="btn btn-primary btn-sm" onclick="nextDrill1()">Prossima domanda</button>
+        </div>`;
+      }
+    }
+
+    function nextDrill1() {
+      d1Index += 1;
+      d1Answered = false;
+      renderDrill1();
+    }
+
+    /* --- DRILL 2: MANGA DIALOGUE COMPLETION --- */
+    function restartDrill2() {
+      d2Index = 0;
+      d2Answered = false;
+      renderDrill2();
+    }
+
+    function renderDrill2() {
+      const stage = document.getElementById(`d2-stage`);
+      const badge = document.getElementById(`d2-progress-badge`);
+      const scoreEl = document.getElementById(`d2-score-text`);
+      if (!stage) return;
+
+      const doneTotal = Object.keys(appState.drill2Done).length;
+      if (scoreEl) scoreEl.textContent = `Corretti: ${doneTotal}/${DRILL2_DIALOGUES.length}`;
+
+      if (d2Index >= DRILL2_DIALOGUES.length) {
+        if (badge) badge.textContent = `Dialoghi completati!`;
+        stage.innerHTML = `<div class="quiz-prompt-card">
+          <div>
+            <span class="kicker-text">Sezione Dialoghi Manga Completata</span>
+            <h3 class="subhead" style="margin-top: var(--space-xs);">Hai completato tutti gli 8 dialoghi con Sora e Kai!</h3>
+            <p style="margin-top: var(--space-xs);">Passa all'esercizio finale di costruzione frasi oppure ripeti i dialoghi.</p>
+            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-md); flex-wrap: wrap;">
+              <button type="button" class="btn btn-primary" onclick="switchDojoTab('drill3')">Vai a Ordina la Frase</button>
+              <button type="button" class="btn btn-ghost" onclick="restartDrill2()">Ripeti i dialoghi</button>
+            </div>
+          </div>
+        </div>`;
+        return;
+      }
+
+      const d = DRILL2_DIALOGUES[d2Index];
+      if (badge) badge.textContent = `Dialogo ${d2Index + 1} di ${DRILL2_DIALOGUES.length}`;
+
+      const formatBlank = txt => txt.replace(`___`, `<span class="flood-highlight" id="d2-blank-word">___</span>`);
+      const scrambledOpts = shuffleArray(d.options);
+
+      stage.innerHTML = `<div class="manga-panel" style="gap: var(--space-md);">
+          <div class="dialogue-turn">
+            <div class="avatar-box">${renderMangaPortrait(d.speakerA)}</div>
+            <div class="speech-bubble">
+              <span class="speech-speaker">${d.speakerA}</span>
+              <span class="speech-en">${formatBlank(d.lineA)}</span>
+              <span class="speech-it">${d.lineAIt}</span>
+            </div>
+          </div>
+          <div class="dialogue-turn reverse">
+            <div class="avatar-box">${renderMangaPortrait(d.speakerB)}</div>
+            <div class="speech-bubble">
+              <span class="speech-speaker">${d.speakerB}</span>
+              <span class="speech-en">${formatBlank(d.lineB)}</span>
+              <span class="speech-it">${d.lineBIt}</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="kicker-text" style="margin-top: var(--space-md);">Scegli la parola corretta per completare il fumetto:</p>
+        <div class="options-grid" style="margin-top: var(--space-sm);">
+          ${scrambledOpts.map((opt, idx) => `<button type="button" class="option-btn" id="d2-opt-${idx}" data-val="${opt}" onclick="answerDrill2(this)">
+            <span>${opt}</span>
+            <span class="kicker-text">${idx + 1}</span>
+          </button>`).join(``)}
+        </div>
+        <div id="d2-feedback-slot" style="margin-top: var(--space-md);"></div>`;
+    }
+
+    function answerDrill2(btn) {
+      if (d2Answered || !btn) return;
+      d2Answered = true;
+      const d = DRILL2_DIALOGUES[d2Index];
+      const chosen = btn.dataset.val;
+      const isRight = chosen === d.answer;
+
+      const blankEl = document.getElementById(`d2-blank-word`);
+      if (blankEl) blankEl.textContent = d.answer;
+
+      const allBtns = document.querySelectorAll(`#panel-drill2 .option-btn`);
+      allBtns.forEach(b => {
+        b.disabled = true;
+        if (b.dataset.val === d.answer) b.classList.add(`is-correct`);
+        else if (b === btn && !isRight) b.classList.add(`is-wrong`);
+      });
+
+      if (isRight) {
+        if (!appState.drill2Done[d2Index]) {
+          appState.drill2Done[d2Index] = true;
+          appState.xp += 20;
+        }
+        appState.correctCount += 1;
+        playChime(true);
+      } else {
+        playChime(false);
+      }
+
+      persistState();
+      updateHud();
+
+      const fullDialogue = `${d.lineA} ${d.lineB}`.replace(`___`, d.answer).replace(/"/g, `&quot;`);
+      const fb = document.getElementById(`d2-feedback-slot`);
+      if (fb) {
+        fb.innerHTML = `<div class="feedback-banner ${isRight ? `correct` : `wrong`}">
+          <div>
+            <strong>${isRight ? `Perfetto! (+20 XP)` : `Risposta corretta: "${d.answer}"`}</strong>
+            <p style="margin-top: 2px;">${d.tip}</p>
+          </div>
+          <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap;">
+            <button type="button" class="btn btn-secondary btn-sm" data-speak="${fullDialogue}" onclick="speakFromEl(this)">Ascolta</button>
+            <button type="button" class="btn btn-primary btn-sm" onclick="nextDrill2()">Prossimo dialogo</button>
+          </div>
+        </div>`;
+      }
+    }
+
+    function nextDrill2() {
+      d2Index += 1;
+      d2Answered = false;
+      renderDrill2();
+    }
+
+    /* --- DRILL 3: SENTENCE WORD TILES --- */
+    function restartDrill3() {
+      d3Index = 0;
+      initDrill3Round();
+    }
+
+    function initDrill3Round() {
+      d3PlacedIndices = [];
+      d3SolvedCurrent = false;
+      if (d3Index < DRILL3_SENTENCES.length) {
+        const tokens = DRILL3_SENTENCES[d3Index].tokens;
+        d3Scrambled = shuffleArray(tokens.map((tok, idx) => ({ tok, id: idx })));
+      } else {
+        d3Scrambled = [];
+      }
+      renderDrill3();
+    }
+
+    function renderDrill3() {
+      const stage = document.getElementById(`d3-stage`);
+      const badge = document.getElementById(`d3-progress-badge`);
+      const scoreEl = document.getElementById(`d3-score-text`);
+      if (!stage) return;
+
+      const solvedTotal = Object.keys(appState.drill3Done).length;
+      if (scoreEl) scoreEl.textContent = `Frasi risolte: ${solvedTotal}/${DRILL3_SENTENCES.length}`;
+
+      if (d3Index >= DRILL3_SENTENCES.length) {
+        if (badge) badge.textContent = `Tutte le frasi completate!`;
+        stage.innerHTML = `<div class="quiz-prompt-card">
+          <div>
+            <span class="kicker-text">Dojo Completato</span>
+            <h3 class="subhead" style="margin-top: var(--space-xs);">Hai costruito tutte le 6 domande e frasi!</h3>
+            <p style="margin-top: var(--space-xs);">Ora padroneggi sia i colori sia l'ordine delle parole in inglese.</p>
+            <button type="button" class="btn btn-primary" style="margin-top: var(--space-md);" onclick="restartDrill3()">Ricomincia da capo</button>
+          </div>
+        </div>`;
+        return;
+      }
+
+      const item = DRILL3_SENTENCES[d3Index];
+      if (badge) badge.textContent = `Frase ${d3Index + 1} di ${DRILL3_SENTENCES.length}`;
+
+      const trayHtml = d3PlacedIndices.length === 0
+        ? `<span style="color: var(--on-surface-variant);">Clicca le tessere qui sotto nell'ordine giusto per formare la frase…</span>`
+        : d3PlacedIndices.map((bankIdx, pos) => `<button type="button" class="word-tile placed" onclick="removeTileAt(${pos})">${d3Scrambled[bankIdx].tok}</button>`).join(``);
+
+      const bankHtml = d3Scrambled.map((obj, bankIdx) => {
+        const isUsed = d3PlacedIndices.includes(bankIdx);
+        return `<button type="button" class="word-tile" ${isUsed ? `disabled` : ``} onclick="placeTile(${bankIdx})">${obj.tok}</button>`;
+      }).join(``);
+
+      stage.innerHTML = `<div class="quiz-prompt-card">
+          <div>
+            <span class="kicker-text">Traduci e costruisci in Inglese</span>
+            <h3 class="subhead" style="margin-top: var(--space-xs);">"${item.promptIt}"</h3>
+          </div>
+        </div>
+
+        <div style="margin-top: var(--space-md);">
+          <span class="kicker-text">La tua frase (clicca una tessera inserita per toglierla):</span>
+          <div class="tile-tray" style="margin-top: var(--space-xs);">${trayHtml}</div>
+        </div>
+
+        <div style="margin-top: var(--space-md);">
+          <span class="kicker-text">Tessere disponibili:</span>
+          <div class="tile-bank" style="margin-top: var(--space-xs);">${bankHtml}</div>
+        </div>
+
+        <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-lg); flex-wrap: wrap;">
+          <button type="button" class="btn btn-primary" onclick="checkDrill3Sentence()" ${d3PlacedIndices.length === 0 ? `disabled` : ``}>
+            <i data-lucide="check-circle" aria-hidden="true"></i>
+            Controlla frase
+          </button>
+          <button type="button" class="btn btn-secondary" onclick="hintDrill3()">
+            <i data-lucide="lightbulb" aria-hidden="true"></i>
+            Suggerimento
+          </button>
+          <button type="button" class="btn btn-ghost" onclick="clearDrill3Tray()">
+            Svuota
+          </button>
+        </div>
+
+        <div id="d3-feedback-slot" style="margin-top: var(--space-md);"></div>`;
+
+      refreshLucide();
+    }
+
+    function placeTile(bankIdx) {
+      if (d3SolvedCurrent) return;
+      if (!d3PlacedIndices.includes(bankIdx)) {
+        d3PlacedIndices.push(bankIdx);
+        renderDrill3();
+      }
+    }
+
+    function removeTileAt(pos) {
+      if (d3SolvedCurrent) return;
+      d3PlacedIndices.splice(pos, 1);
+      renderDrill3();
+    }
+
+    function clearDrill3Tray() {
+      if (d3SolvedCurrent) return;
+      d3PlacedIndices = [];
+      renderDrill3();
+    }
+
+    function hintDrill3() {
+      if (d3SolvedCurrent) return;
+      const item = DRILL3_SENTENCES[d3Index];
+      const nextStep = d3PlacedIndices.length;
+      if (nextStep >= item.tokens.length) return;
+      const neededTok = item.tokens[nextStep];
+      const foundBankIdx = d3Scrambled.findIndex((o, idx) => o.tok === neededTok && !d3PlacedIndices.includes(idx));
+      if (foundBankIdx !== -1) {
+        d3PlacedIndices.push(foundBankIdx);
+        renderDrill3();
+      }
+    }
+
+    function checkDrill3Sentence() {
+      const item = DRILL3_SENTENCES[d3Index];
+      const built = d3PlacedIndices.map(idx => d3Scrambled[idx].tok).join(` `);
+      const target = item.tokens.join(` `);
+      const isRight = built === target;
+
+      const fb = document.getElementById(`d3-feedback-slot`);
+      if (isRight) {
+        d3SolvedCurrent = true;
+        if (!appState.drill3Done[d3Index]) {
+          appState.drill3Done[d3Index] = true;
+          appState.xp += 25;
+        }
+        appState.correctCount += 1;
+        playChime(true);
+        persistState();
+        updateHud();
+
+        const cleanSpeak = target.replace(` ?`, `?`).replace(` .`, `.`).replace(/"/g, `&quot;`);
+        if (fb) {
+          fb.innerHTML = `<div class="feedback-banner correct">
+            <div>
+              <strong>Bravissimo! (+25 XP)</strong>
+              <p style="margin-top: 2px;">${item.tip}</p>
+            </div>
+            <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap;">
+              <button type="button" class="btn btn-secondary btn-sm" data-speak="${cleanSpeak}" onclick="speakFromEl(this)">Ascolta</button>
+              <button type="button" class="btn btn-primary btn-sm" onclick="nextDrill3()">Frase successiva</button>
+            </div>
+          </div>`;
+        }
+      } else {
+        playChime(false);
+        if (fb) {
+          fb.innerHTML = `<div class="feedback-banner wrong">
+            <div>
+              <strong>Ordine da rivedere!</strong>
+              <p style="margin-top: 2px;">${item.tip} Prova a riordinare le tessere o premi Suggerimento.</p>
+            </div>
+          </div>`;
+        }
+      }
+    }
+
+    function nextDrill3() {
+      d3Index += 1;
+      initDrill3Round();
+    }
+
+    /* =========================================================================
+       9. EXPORT CSV & INITIALIZATION
+       ========================================================================= */
+    function exportProgressCsv() {
+      const lines = [`Inglese,Italiano,Pronuncia,Frase Esempio,Memorizzato`];
+      COLORS_DATA.forEach(c => {
+        const done = appState.masteredColors.includes(c.id) ? `Si` : `No`;
+        lines.push(`"${c.en}","${c.it}","${c.phonetic}","${c.phraseEn}",${done}`);
+      });
+      const csvContent = lines.join(`\n`);
+      if (window.notebookAppApi && typeof window.notebookAppApi.triggerFileDownload === `function`) {
+        window.notebookAppApi.triggerFileDownload({
+          content: csvContent,
+          contentType: `text/csv`,
+          encoding: `UTF-8`,
+          filename: `colori-inglese-riepilogo.csv`
+        });
+      }
+    }
+
+    function refreshLucide() {
+      if (window.lucide && typeof window.lucide.createIcons === `function`) {
+        window.lucide.createIcons();
+      }
+    }
+
+    async function initApp() {
+      await loadAppState();
+      initDialoguePortraits();
+      renderColorCards();
+      updateBuilder();
+      restartDrill1();
+      restartDrill2();
+      restartDrill3();
+      updateHud();
+      refreshLucide();
+
+      if (window.notebookAppApi && typeof window.notebookAppApi.notifyAppReady === `function`) {
+        window.notebookAppApi.notifyAppReady();
+      }
+    }
+
+    document.addEventListener(`DOMContentLoaded`, initApp);
+  </script>
+</body>
+</html>
